@@ -25,4 +25,9 @@ public class Demo {
     {
     	Reporter.log("maven project4",true);
     }
+    @Test
+    public void demo4()
+    {
+    	Reporter.log("maven project5",true);
+    }
 }
