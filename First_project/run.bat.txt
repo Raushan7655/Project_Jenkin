@@ -1,0 +1,3 @@
+@echo off
+cd C:\Users\sai\eclipse-workspace\First_project
+mvn install
