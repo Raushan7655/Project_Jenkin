@@ -14,4 +14,10 @@ public class Demo {
     {
     	Reporter.log("maven project2",true);
     }
+    
+    @Test
+    public void demo2()
+    {
+    	Reporter.log("maven project3",true);
+    }
 }
