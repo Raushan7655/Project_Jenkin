@@ -18,7 +18,7 @@ public class ScreenshotEx {
 	WebDriverManager.chromedriver().setup() ;
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.google.com/");
-	TakesScreenshot t=(TakesScreenshot)driver;
+	TakesScreenshot t=(TakesScreenshot)driver;                   //    ghgftrf
 	File src = t.getScreenshotAs(OutputType.FILE);
 	File dest=new File("./screenshot1/ss.png");
 	FileUtils.copyFile(src, dest);
